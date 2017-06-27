@@ -1670,14 +1670,13 @@ pre .javascript .function {
   font-size: 13px;
 }
 .links-of-author a:before {
-  display: inline-block;
   vertical-align: middle;
   margin-right: 3px;
   content: " ";
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #58ff25;
+  background: #6a44c6;
 }
 .links-of-blogroll {
   font-size: 13px;
