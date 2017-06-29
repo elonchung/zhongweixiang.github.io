@@ -78,7 +78,14 @@ search:
   field: post
   format: html
   limit: 10000
-  
+
+algolia:
+  applicationID: 'Y41MM64BIR'
+  apiKey: '53e07de8471cdf21a4275b04800b8f59'
+  adminApiKey: '48250562a0ce2d550fde96a3193ffedb'
+  indexName: 'hexo'
+  chunkSize: 5000 
+
 jsonContent:
     meta: false
     pages: false
