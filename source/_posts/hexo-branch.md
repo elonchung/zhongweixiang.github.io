@@ -1,7 +1,10 @@
 ---
 title: Hexo利用Github分支在不同电脑上写博客
 date: 2017-06-29 01:49:53
+categories:
+- Git
 tags: 
+- Git
 - 小公举
 ---
 Hexo是一个很好的开源博客框架，支持Markdown的写作方式，并且可以与Github Page协作轻松搭建博客，非常适合展示性的个人博客。Hexo通过将Markdown文件编译成html文件，然后将html文件直接部署到网站上，所以被称作静态博客，因为直接就是访问的最终的html文件，不会有PHP那样的中间处理，所以对浏览器来讲会比较快。
