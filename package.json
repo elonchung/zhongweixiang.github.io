@@ -16,8 +16,8 @@
     "hexo-generator-search": "^2.1.1",
     "hexo-generator-searchdb": "^1.0.7",
     "hexo-generator-tag": "^0.2.0",
-    "hexo-renderer-ejs": "^0.2.0",
-    "hexo-renderer-marked": "^0.2.11",
+    "hexo-renderer-ejs": "^2.5.5",
+    "hexo-renderer-marked": "^0.3.9",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.2.1"
   }
