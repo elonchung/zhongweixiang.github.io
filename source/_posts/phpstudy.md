@@ -18,4 +18,4 @@ comments: true
 
 - [各类技术干货（英文）](https://github.com/sindresorhus/awesome)
 
-- [大前端工具集](/front-tool)
+- [大前端工具集](/2017/06/front-tool/)
