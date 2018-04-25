@@ -1,6 +1,6 @@
 ---
 title: hexo使用jenkins自动部署到阿里云
-date: 2018-04-09 13:21:52
+date: 2017-07-01 18:21:52
 categories: 
 - 小公举
 tags:
