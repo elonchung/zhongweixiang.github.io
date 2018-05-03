@@ -10,4 +10,4 @@ resume.md
 
 themes/*
 !themes/next
-
+!themes/pure

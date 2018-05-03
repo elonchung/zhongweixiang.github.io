@@ -7,12 +7,12 @@ title:  WEBの一些事情
 subtitle:
 description:
 author: Elon Chung
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://localhost:4000/
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :year/:month/:title/
@@ -64,7 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -86,23 +86,95 @@ algolia:
   indexName: 'hexo'
   chunkSize: 5000 
 
+#jsonContent:
+#    meta: false
+#    pages: false
+#    posts:
+#      title: true
+#      date: true
+#      path: true
+#      text: false
+#      raw: false
+#      content: false
+#      slug: false
+#      updated: false
+#      comments: false
+#      link: false
+#      permalink: false
+#      excerpt: false
+#      categories: false
+#      tags: true
+
+# pure主题使用的插件
 jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: false
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
+  ignore:
+    - path/to/a/page
+    - url/to/one/post
+    - an-entire-category
+    - specific.file
+    - .ext # a file extension
+
+#baidu_url_submit:
+#  count: 1 ## 提交最新的一个链接
+#  host: www.elonchung.cn ## 在百度站长平台中注册的域名
+#  token: your_token ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+#  path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
+
+# 自动压缩html、css、js代码
+neat_enable: true
+
+#压缩html代码
+neat_html:
+  enable: true
+  exclude:
+
+#压缩CSS
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+#压缩JS    
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
 
 
+#RESTful JSON数据生成插件。
+restful:
+  # site 可配置为数组选择性生成某些属性
+  # site: ['title', 'subtitle', 'description', 'author', 'since', email', 'favicon', 'avatar']
+  site: true        # hexo.config mix theme.config
+  posts_size: 10    # 文章列表分页，0 表示不分页
+  posts_props:      # 文章列表项的需要生成的属性
+    title: true
+    slug: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    excerpt: false
+    cover: true      # 封面图，取文章第一张图片
+    content: false
+    keywords: false
+    categories: true
+    tags: true
+  categories: true  # 分类数据
+  tags: true        # 标签数据
+  post: true        # 文章数据
+  pages: false      # 额外的 Hexo 页面数据, 如 About
+
+
+nofollow:
+  enable: true
+  exclude:
+    - exclude1.com
+    - exclude2.com
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml

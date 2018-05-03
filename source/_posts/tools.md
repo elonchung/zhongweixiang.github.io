@@ -5,6 +5,7 @@ categories:
 - tools
 tags:
 - tools
+toc: true # 是否启用内容索引
 ---
 
 ## 常用的工具
