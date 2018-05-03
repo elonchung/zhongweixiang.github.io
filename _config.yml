@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title:  WEBの一些事情
+title:  Elon Chung
 subtitle:
 description:
 author: Elon Chung
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://localhost:4000/
+url: https://www.elonchung.cn/
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :year/:month/:title/
@@ -168,11 +168,7 @@ restful:
   pages: false      # 额外的 Hexo 页面数据, 如 About
 
 
-nofollow:
-  enable: true
-  exclude:
-    - exclude1.com
-    - exclude2.com
+
 
 sitemap:
   path: sitemap.xml

@@ -2,10 +2,10 @@
 menu:
   Home: .
   Archives: archives  # 归档
-  Categories: categories  # 分类
-  Tags: tags  # 标签
+#  Categories: categories  # 分类
+#  Tags: tags  # 标签
   Repository: repository  # github repositories
-  Books: books  # 豆瓣书单
+#  Books: books  # 豆瓣书单
   Links: links  # 友链
   About: about  # 关于
 
@@ -34,7 +34,7 @@ site:
   title: Elon Chung # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
-  copyright: false # 底部版权信息
+  copyright: true # 底部版权信息
 
 # config
 config:
@@ -67,7 +67,7 @@ widgets:
 index_widgets:
 # - category
 # - tagcloud
-# - archive  
+ - archive  
 
 # widget behavior
 archive_type: 'monthly'
@@ -81,7 +81,7 @@ search:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.png
@@ -138,7 +138,7 @@ douban:
 # PV
 pv:
   busuanzi:
-    enable: false  # 不蒜子统计
+    enable: true  # 不蒜子统计
   leancloud:
     enable: false  # leancloud统计
     app_id: # leancloud <AppID>
@@ -146,7 +146,7 @@ pv:
         
 # wordcount
 postCount:
-  enable: false
+  enable: true
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
@@ -170,7 +170,7 @@ profile:
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: Elon Chung
   author_title: Web Developer & PHPer
-  author_description: 个人简介。
+  author_description: 乐观 自信 爱 生活
   location: Shenzhen, China
   follow: https://github.com/zhongweixiang
   # Social Links
