@@ -114,7 +114,7 @@ comment:
     uid: MTAyMC8zNjE5Mi8xMjcyNw== # enter youyan uid 
   gitment:
     githubID: zhongweixiang
-    repo: https://github.com/zhongweixiang/zhongweixiang.github.io
+    repo: zhongweixiang.github.io
     ClientID: 0e7d3cfb086ee391e950
     ClientSecret: b4bb522dc433143cbc124889d04d684a2ca9e742
     lazy: false
