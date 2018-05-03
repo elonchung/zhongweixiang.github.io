@@ -5,6 +5,7 @@ categories:
 - 数据库
 tags:
 - 数据库
+toc: true # 是否启用内容索引
 ---
 # 简介
 

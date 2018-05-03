@@ -5,6 +5,7 @@ categories:
 - PHP
 tags:
 - PHP
+toc: true # 是否启用内容索引
 ---
 
 # 使用版本thinkphp3.2

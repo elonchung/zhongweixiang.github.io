@@ -1,9 +1,12 @@
 ---
 title: phpstorm安装&配置
 date: 2016-03-20 10:38:56
-categories: 小公举
+categories: 
+- 小公举
 tags:
 - 小公举
+- phpstorm
+toc: true # 是否启用内容索引
 ---
 ## phpstorm 快捷键
 - [优雅使用phpstorm](https://lattecake.com/post/20075)

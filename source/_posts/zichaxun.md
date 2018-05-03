@@ -5,6 +5,7 @@ categories:
 - MySQL
 tags:
 - MySQL
+toc: true # 是否启用内容索引
 ---
 
 ## 一、子查询定义

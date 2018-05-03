@@ -5,6 +5,7 @@ categories:
 - 小公举
 tags:
 - 小公举
+toc: true # 是否启用内容索引
 ---
 
 ## Markdown相关插件

@@ -5,6 +5,7 @@ categories:
 - LAMP
 tags:
 - LAMP
+toc: true # 是否启用内容索引
 ---
 
 
