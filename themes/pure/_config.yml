@@ -169,7 +169,7 @@ profile:
   avatar: images/avatar.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: Elon Chung
-  author_title: Web Developer & PHPer
+  author_title: PHPer & Web Developer
   author_description: 乐观 自信 爱 生活
   location: Shenzhen, China
   follow: https://github.com/zhongweixiang

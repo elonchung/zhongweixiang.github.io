@@ -1,5 +1,5 @@
 ---
-title: phpstorm安装&配置
+title: phpstorm安装与配置
 date: 2016-03-20 10:38:56
 categories: 
 - 小公举
