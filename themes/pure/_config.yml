@@ -31,7 +31,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Elon Chung # 页面title
+  title: Elon Chung - PHPer & Web Developer # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: true # 底部版权信息
@@ -170,7 +170,7 @@ profile:
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: Elon Chung
   author_title: PHPer & Web Developer
-  author_description: 乐观 自信 爱 生活
+  author_description: 乐观自信爱生活；沉着冷静撸代码。
   location: Shenzhen, China
   follow: https://github.com/zhongweixiang
   # Social Links
@@ -187,33 +187,46 @@ profile:
   # My Skills 
   skills:
     Git: ★★★☆☆
-    Gulp: ★★★☆☆
+    Svn: ★★★★☆
+    PHP: ★★★☆☆
+    Yii2: ★★★★☆
+    Zend: ★★★★☆
+    Laravel-Lumen: ★★☆☆☆
+    ThinkPHP: ★★★☆☆
     Javascript: ★★★☆☆
     HTML+CSS: ★★★☆☆
     Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
+    Python: ★★☆☆☆
+    Java: ★★☆☆☆
+    MySQL: ★★★☆☆
+    LA/NMP: ★★★☆☆
+    Redis: ★★★☆☆
+    Memcache: ★★★☆☆
     平面设计: ★★★☆☆
   # My Personal Links
-  links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
+#  links:
+#    Github: https://github.com/zhongweixiang
+#    Blog: https://www.elonchung.cn
+#    微博: http://weibo.com/331845158
+#    花瓣: http://huaban.com/cofess
+#    Behance: https://www.behance.net/cofess
   # My Personal Labels
   labels:
-    - 前端
-    - 前端开发
-    - 前端重构
+    - PHP
+    - PHP后端
     - Web前端
+    - Web全栈
+    - Web架构
     - 网页重构
-  # My Personal Works
-  works:
-    name:
-      link: http://www.example.com
-      date: 2016
+    - 工程师
+
+# My Personal Works
+#  works:
+#    name:
+#      link: http://www.example.com
+#      date: 2016
   # My Personal Projects
-  projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+#  projects:
+#    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+#    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
 

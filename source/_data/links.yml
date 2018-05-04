@@ -6,3 +6,33 @@ hexo主题pure:
     link: http://blog.cofess.com/
     avatar: 
     desc: "hexo主题pure安装使用"
+韩天峰blog:
+    link: http://rango.swoole.com/
+    avatar: 
+    desc: "swoole框架开发者"    
+酷 壳:
+    link: http://coolshell.cn
+    avatar: 
+    desc: "酷 壳 – CoolShell"
+美团点评:
+    link: https://tech.meituan.com/
+    avatar: 
+    desc: "美团点评技术团队"
+阿里团队:
+    link: http://jm.taobao.org/
+    avatar: 
+    desc: "阿里中间件团队博客"
+程序猿DD博客:
+    link: http://coolshell.cn
+    avatar: 
+    desc: "程序猿DD博客"
+张逸:
+    link: http://zhangyi.farbox.com/
+    avatar: 
+    desc: "张逸的博客"
+InfoQ中文:
+    link: http://www.infoq.com/cn/
+    avatar: 
+    desc: "InfoQ中文"
+
+
