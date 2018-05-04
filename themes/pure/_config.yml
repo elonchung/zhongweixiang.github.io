@@ -32,7 +32,7 @@ site:
     height: 40
     url: ../images/logo.png
   title: Elon Chung - PHPer & Web Developer # 页面title
-  favicon: /favicon.png
+  favicon: /favicon.ico
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: true # 底部版权信息
 
@@ -154,7 +154,7 @@ postCount:
 plugins:
   google_analytics: # enter the tracking ID for your Google Analytics
   google_site_verification: # enter Google site verification code
-  baidu_analytics: # enter Baidu Analytics hash key
+  baidu_analytics: bdd558368004a3dff28c0ad7c2b08e48 # enter Baidu Analytics hash key
   tencent_analytics: 
   
 # Miscellaneous
