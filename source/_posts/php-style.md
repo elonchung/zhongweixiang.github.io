@@ -8,6 +8,8 @@ tags:
 - Swoole
 - RabbitMQ
 toc: true # 是否启用内容索引
+keywords: php,RabbitMQ,Swoole,消息队列,异步任务系统,消费端架构图,生产者,消费者
+description: 基于RabbitMQ和Swoole实现的一个完整的异步任务系统
 ---
  
 

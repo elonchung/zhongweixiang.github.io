@@ -6,6 +6,8 @@ categories:
 tags:
 - PHP
 toc: true # 是否启用内容索引
+keywords: php,悲观锁,乐观锁,高级PHP
+description: 高级PHP知识点
 ---
 
 ## 1. mysqli

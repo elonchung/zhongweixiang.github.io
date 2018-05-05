@@ -16,6 +16,12 @@
   <% if (theme.plugins.google_site_verification) { %>
   <meta name="google-site-verification" content="<%= theme.plugins.google_site_verification %>" />
   <% } %>
+  <!-- 添加keywords -->
+  <% if (page.keywords){ %>
+  <meta name="keywords" content="<%= page.keywords %><%= config.keywords %>">
+  <% } else if (config.keywords){ %>
+  <meta name="keywords" content="<%= config.keywords %>">
+  <%} %>
   <%
   var title = page.title;
 

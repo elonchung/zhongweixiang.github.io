@@ -6,6 +6,8 @@ categories:
 tags:
 - Git
 toc: true # 是否启用内容索引
+keywords: git,git配置,git命令,git命令清单
+description: 熟练使用，恐怕要记住60～100个命令
 ---
 我每天使用 Git ，但是很多命令记不住。
 一般来说，日常使用只要记住下图6个命令，就可以了。但是熟练使用，恐怕要记住60～100个命令。

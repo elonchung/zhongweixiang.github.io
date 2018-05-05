@@ -6,6 +6,8 @@ categories:
 tags:
 - 小公举
 toc: true # 是否启用内容索引
+keywords: php,Postman,调试,模拟登录调试
+description: postman 算是一个神器了，对于后台开发来说简直就是福音。
 ---
   
 # postman模拟登录调试

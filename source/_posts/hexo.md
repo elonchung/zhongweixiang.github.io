@@ -5,7 +5,10 @@ categories:
 - 小公举 
 tags:
 - hexo
+- git
 toc: true # 是否启用内容索引
+keywords: Hexo,安装hexo,nodejs,next,Github page
+description: Hexo利用Github分支在不同电脑上写博客
 ---
 自己也算是摸爬滚打搭建成功，然后自己再重新安装部署一遍，把完整步骤分享给大家，同时最后有一些连接，如果我的步骤不行，大家可以参考其他人的（这个有点花费时间，大家提前有个心理准备 - _-）
 

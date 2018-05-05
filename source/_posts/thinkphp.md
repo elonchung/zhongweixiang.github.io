@@ -6,6 +6,8 @@ categories:
 tags:
 - PHP
 toc: true # 是否启用内容索引
+keywords: php,Thinkphp,Thinkphp源码
+description: Thinkphp 的初体验
 ---
 
 # 使用版本thinkphp3.2

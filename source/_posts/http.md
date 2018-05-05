@@ -7,6 +7,8 @@ categories:
 tags:
 - HTTP
 toc: true # 是否启用内容索引
+keywords: HTTP,HTTP协议,消息报头,普通报头,请求报头,响应报头,实体报头
+description: HTTP是一个属于应用层的面向对象的协议，由于其简捷、快速的方式，适用于分布式超媒体信息系统。它于1990年提出，经过几年的使用与发展，得到不断地完善和扩展。目前在WWW中使用的是HTTP/1.0的第六版，HTTP/1.1的规范化工作正在进行之中，而且HTTP-NG(Next Generation of HTTP)的建议已经提出。
 ---
 ## 引言
 

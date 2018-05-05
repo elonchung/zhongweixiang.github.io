@@ -6,6 +6,8 @@ categories:
 tags:
 - 数据库
 toc: true # 是否启用内容索引
+keywords: php,高性能,mysql,MySQL系统,构建高性能MySQL系统
+description: 最近在压测新的存储，正好把工作过程中积累的对高性能MySQL相关的知识体系构建起来，做成思维导图的方式。总结乃一家之言，有不妥之处，望给位读者朋友指正。
 ---
 # 简介
 

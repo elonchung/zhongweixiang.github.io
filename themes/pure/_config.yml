@@ -31,7 +31,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Elon Chung - PHPer & Web Developer # 页面title
+  title: Elon Chung - PHPer & Web Developer Blog # 页面title
   favicon: /favicon.ico
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: true # 底部版权信息

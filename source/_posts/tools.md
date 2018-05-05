@@ -6,6 +6,8 @@ categories:
 tags:
 - tools
 toc: true # 是否启用内容索引
+keywords: php,PHPstorm,Java,sublime,php之路,前端工具,chrome插件,代码管理,linux,windows小工具,架构师之路,DBAplus社群,美团点评技术团队,携程技术,中心阿里技术,CSDN大数据,开源中国,伯乐在线,聊聊架构,壹佰案例,高效开发运维
+description: 常用的工具（个人收录-待完善）
 ---
 
 ## 常用的工具

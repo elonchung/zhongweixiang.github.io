@@ -6,7 +6,8 @@ categories:
 tags:
 - LAMP
 toc: true # 是否启用内容索引
-keywords: lamp
+keywords: lamp,LAMP编译安装,编译配置,
+description: LAMP编译安装所需要系统库相关库文件安装详细
 ---
 
 

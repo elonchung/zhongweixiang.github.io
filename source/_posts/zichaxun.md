@@ -6,6 +6,9 @@ categories:
 tags:
 - MySQL
 toc: true # 是否启用内容索引
+keywords: php,mysql,sql子查询,子查询,标量子查询,列子查询,行子查询,表子查询 N 列。
+description: 子查询，又叫内部查询，相对于内部查询，包含内部查询的就称为外部查询
+
 ---
 
 ## 一、子查询定义

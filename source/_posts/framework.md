@@ -1,11 +1,14 @@
 ---
-title: Web 高效开发必备的 PHP 框架
+title: 当前Web高效开发必备的PHP框架
 date: 2017-07-09 13:21:52
 categories: 
 - PHP
 tags:
 - PHP
+- PHP框架
 toc: true # 是否启用内容索引
+keywords: PHP框架,Web,开发框架,THinkPHP,Laravel,Yii,CodeIgniter,phalcon
+description: 简单介绍下Web高效开发必备的PHP框架。
 ---
 ## 多功能 THinkPHP 开源框架
 项目简介：使用 THinkPHP 开发项目的过程中把一些常用的功能或者第三方 sdk 整合好，开源供亲们参考，如 Auth 权限管理、支付宝、微信支付、阿里oss、友盟推送、融云即时通讯、云通讯短信、Email、Excel、PDF 等等。这些都是经过线上运营考验的，无毒害可以免费放心折腾使用。只要不会某一天找到我说因为借鉴了这个开源产品的一些方法，而导致了好几个亿的损失，要我负责并赔偿就好~ ￣へ￣
