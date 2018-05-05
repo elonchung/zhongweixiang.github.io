@@ -35,6 +35,7 @@ site:
   favicon: /favicon.ico
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: true # 底部版权信息
+  custom_text: 粤ICP备18050169号-1  
 
 # config
 config:

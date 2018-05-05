@@ -7,5 +7,8 @@
         <div class="publishby">
         	<%= __('copyright.theme_by') %> <a href="https://github.com/cofess" target="_blank"> cofess </a><%= __('copyright.base_on') %> <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
         </div>
+        <% if(theme.site.custom_text) { %>
+        <%= theme.site.custom_text %>
+        <% } %>
     </div>
 </footer>
