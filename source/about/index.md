@@ -12,14 +12,14 @@ sidebar: custom
 - 姓名：Elon Chung
 - 邮件：elonchung@163.com
 
---- 
+---
 
 ### 2018-2020的学习内容
 
 #### 深度：
 
 - 前端：Nodejs、HTML5、vuejs、Angularjs
-- 后端：PHP底层原理、PHP扩展、设计模式、算法、Sockect
+- 后端：JAVA基础、JAVA底层原理、JAVA框架使用、PHP底层原理、PHP扩展、设计模式、算法、Sockect
 - 数据库：MongoDB、PostgreSQL、ElasticSearch
 - 架构：高并发、高可用、分布式架构、集群（redis、mysql）
 

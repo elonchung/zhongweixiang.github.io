@@ -31,7 +31,7 @@ site:
     width: 40
     height: 40
     url: images/logo.png
-  title: Elon Chung - PHPer & Web Developer Blog # 页面title
+  title: Elon Chung - JAVA PHP Web Developer Blog # 页面title
   favicon: /favicon.ico
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: true # 底部版权信息
@@ -170,7 +170,7 @@ profile:
   avatar: images/avatar.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: Elon Chung
-  author_title: PHPer & Web Developer
+  author_title: JAVA PHP Web Developer
   author_description: 乐观自信爱生活；沉着冷静撸代码。
   location: Shenzhen, China
   follow: https://github.com/zhongweixiang?tab=repositories

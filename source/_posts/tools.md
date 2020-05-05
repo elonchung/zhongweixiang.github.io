@@ -72,25 +72,74 @@ description: 常用的工具（个人收录-待完善）
 ### chrome插件
 
 - postman
+
 - jsonview
+
 - OneTab
+
 - 掘金
+
 - SwitchyOmega
+
 - 广告净化器
+
 - Infinity
+
 - Octotree Code tree for GitHub
+
 - Advanced REST client
+
 - [插件网](http://www.cnplugins.com/)
+
+  
+
+###  [IDEA插件](https://plugins.jetbrains.com/)
+
+- EasyCode 逆向工程
+- free-mybatis-plugin   
+- gsonformat  json生成代码工具
+- lombok
+- Maven Helper
+- Mybatic log plugin
+- RestfullToolkit
+- Statistic
+- Translation
+- rainbow-brackets
+- grep-console
+- codeglance
+
+
 
 ### windows小工具
 
 - Evernote 笔记 
+
 - RunBlock 程序禁用
+
 - SpaceSniffer 硬盘空间占用
+
 - procexp64 进程管理
+
 - Security Process Explorer 进程屏蔽禁止
+
 - Everything 资源快速搜索
+
 - Shadowsocks V屁N
+
+- you-get 视频下载
+
+  > ```java
+  > // 安装及下载命令
+  > pip3 install you-get
+  > pip3 install --upgrade you-get
+  > you-get --playlist  'https://www.youtube.com/watch?v=jNQXAC9IVRw'
+  > //  --playlist 列表下载
+  > //  -i 查看下载格式
+  > //  --format=flv  清晰度格式下载 最好选默认
+  > //  -o d:/xx  下载路径
+  > ```
+  >
+  > 
 
 ### 微信公众号
 
