@@ -74,9 +74,10 @@ description: 最近在压测新的存储，正好把工作过程中积累的对�
 	> mount -o discard
 
 - 关闭barrier
->	mount -o barrier=0
->	/dev/sdc1 /data ext4 defaults,noatime,nodiratime,nobarrier 0 0
-
+```
+mount -o barrier=0
+/dev/sdc1 /data ext4 defaults,noatime,nodiratime,nobarrier 0 0
+```
 
 ## MySQL
 

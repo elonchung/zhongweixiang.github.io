@@ -1,6 +1,6 @@
 ---
 title: docker 安装elk6.7.0
-date: 2020-05-02 13:21:52
+date: 2020-03-10 13:21:52
 categories: 
 - Docker
 - ES
@@ -18,13 +18,13 @@ description: docker 安装elk6.7.0  logstash实现自动同步增量数据
 
 - 拉取容器并安装sebp/elk:670
 
-```
+```shell
 docker run -it --privileged=true -p 5601:5601 -p 9200:9200  -p 5044:5044  -p 9300:9300 -v /opt/elasticsearch/elk-data:/var/lib/elasticsearch/data -v /opt/elasticsearch/plugins:/opt/elasticsearch/plugins  -v /opt/elasticsearch/logstash:/opt/logstash/config/config-mysql --name elk7 sebp/elk:670
 ```
 
 
 
-```
+```shell
 cd /opt/elasticsearch/logstash/config/config-mysql
 ```
 
@@ -150,11 +150,11 @@ output {
 
 ```
 
->  **注意坑**：在容器中如果访问宿主ip数据库使用：172.17.0.1
+>  **注意坑**：在容器中如果访问宿主ip数据库使用：172.17.0.1   172.17.0.2 
 
 先执行goods.conf导入所有商品数据
 
-```cmd
+```shell
 命令：
 docker ps -a 
 
@@ -173,5 +173,51 @@ nohub ./logstash -f ../config/config-mysql/goods_increment.conf  >/dev/null &
 
 查看日志
 tailf /opt/elasticsearch/logstash/conf/nohup.out
+
+# 安装参数
+# 单例
+-e "discovery.type=single-node"
+# 启动的内存设置
+-e ES_JAVA_OPTS="-Xms64m -Xmx512m" 
+
+# 单独安装Es
+docker run -it -d --privileged=true -p 9200:9200  -p 9300:9300  -v /opt/elasticsearch/elk-data:/var/lib/elasticsearch/data -e "discovery.type=single-node" -e ES_JAVA_OPTS="-Xms64m -Xmx512m"  --name elk670 elasticsearch:6.7.0
+
+
+
+```
+
+
+
+```
+指定单个字段查询AND OR 可切换
+POST /nba/_search
+{
+	"query": {
+		"query_string": {
+			"default_field": "displayNameEn",
+			"query": "james OR harden" 
+		}
+	},
+	"size": 100
+}
+
+
+指定多个字段查询
+
+POST /nba/_search
+{
+	"query": {
+		"query_string": {
+			"fields": [
+				"displayNameEn",
+				"teamNameEn"
+			],
+			"query": "James AND Rockets"
+		}
+	},
+	"size": 100
+}
+
 ```
 

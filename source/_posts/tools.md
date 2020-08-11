@@ -128,18 +128,18 @@ description: 常用的工具（个人收录-待完善）
 
 - you-get 视频下载
 
-  > ```java
-  > // 安装及下载命令
-  > pip3 install you-get
-  > pip3 install --upgrade you-get
-  > you-get --playlist  'https://www.youtube.com/watch?v=jNQXAC9IVRw'
-  > //  --playlist 列表下载
-  > //  -i 查看下载格式
-  > //  --format=flv  清晰度格式下载 最好选默认
-  > //  -o d:/xx  下载路径
-  > ```
-  >
-  > 
+  ```java
+  // 安装及下载命令
+  pip3 install you-get
+  pip3 install --upgrade you-get
+  you-get --playlist  'https://www.youtube.com/watch?v=jNQXAC9IVRw'
+  //  --playlist 列表下载
+  //  -i 查看下载格式
+  //  --format=flv  清晰度格式下载 最好选默认
+  //  -o d:/xx  下载路径
+  ```
+  
+  
 
 ### 微信公众号
 
