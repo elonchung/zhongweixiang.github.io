@@ -1,3 +1,5 @@
+https://www.elonchung.cn/2020/06/mall-dev/
+https://www.elonchung.cn/2020/06/mall-order/
 https://www.elonchung.cn/2020/05/easycode-mybatis-plus/
 https://www.elonchung.cn/2020/04/maven-pom/
 https://www.elonchung.cn/2020/03/docker-elk6.7.0/
@@ -26,5 +28,3 @@ https://www.elonchung.cn/2017/07/framework/
 https://www.elonchung.cn/2017/07/zichaxun/
 https://www.elonchung.cn/2017/07/jenkis/
 https://www.elonchung.cn/2017/06/http-msg/
-https://www.elonchung.cn/2017/06/http/
-https://www.elonchung.cn/2017/06/hexo-branch/
