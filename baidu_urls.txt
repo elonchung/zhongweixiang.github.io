@@ -1,3 +1,5 @@
+https://www.elonchung.cn/2020/08/pay-service/
+https://www.elonchung.cn/2020/08/resume/
 https://www.elonchung.cn/2020/06/mall-dev/
 https://www.elonchung.cn/2020/06/mall-order/
 https://www.elonchung.cn/2020/05/easycode-mybatis-plus/
@@ -26,5 +28,3 @@ https://www.elonchung.cn/2017/07/sql-optimize/
 https://www.elonchung.cn/2017/07/php-style/
 https://www.elonchung.cn/2017/07/framework/
 https://www.elonchung.cn/2017/07/zichaxun/
-https://www.elonchung.cn/2017/07/jenkis/
-https://www.elonchung.cn/2017/06/http-msg/
